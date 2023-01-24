@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathering With You</title>
+    <link rel="stylesheet" href="index.css"></style>
+</head>
+<body>
+    <input type="text" id="city" placeholder="Enter city of your choice"/>
+    <button onclick="getWeather()">Search</button>
+    <div id="Main">
+    <div id="display_info"></div>
+    <div id="part_2"></div>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="600" height="500" id="gmap_canvas" src="" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+    </div>
+    </div>
+    <div id="openweathermap-widget-1"></div>
+</body>
+</html>
+<script src="index.js"></script>
+
+<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>

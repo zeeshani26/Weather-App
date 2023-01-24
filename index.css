@@ -1,0 +1,46 @@
+.mapouter{position:relative;text-align:right;height:500px;width:600px;}
+.gmap_canvas {padding-top: 50px; overflow:hidden;background:none!important;height:500px;width:600px;}
+*{
+    color: rgb(7, 52, 10);
+    font-size: 30px;
+    font-weight: bold;
+}
+#openweathermap-widget-1{
+    margin-left: 70px;
+    margin-top: 0px;
+}
+body{
+    background-image: url("https://jooinn.com/images/reflection-of-mountains-in-lake-against-sky.jpg");
+    background-size:cover
+}
+#city,button{
+    display: block ;
+    margin: auto;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(14, 130, 183);
+    border: 0px;
+    color: black;
+}
+button{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 5px;
+}
+#Main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin: auto;
+}
+#display_info>p:nth-child(1){
+    font-size: 60px;
+    color: rgb(37, 0, 97);
+}
+#part_2{
+    padding-top: 80px;
+}
+#part_2 img{
+    width: 90px;
+}
